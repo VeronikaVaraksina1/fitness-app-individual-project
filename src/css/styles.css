@@ -1,5 +1,5 @@
 @import url('./reset.css');
-
+@import url('./header.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -15,4 +15,37 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 20px 0 0 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 16px;
+  }
+  .section {
+    padding: 16px 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
 }
