@@ -1,20 +1,36 @@
 @import url('./reset.css');
 @import url('./header.css');
+@import url('./social-media-list.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: #f6f6f6;
+  color: #1b1b1b;
 
+  scroll-behavior: smooth;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --black-color: #1b1b1b;
+  --gray-color: #5f6560;
+  --light-gray-color: #7e847f;
+  --white-color: #ffffff;
+  --soft-white-color: #f6f6f6;
+  --gold-color: #eea10c;
+  --cloud-gray-color: #e8e8e8;
+
+  --transition-animation: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .container {
@@ -27,7 +43,6 @@
   margin-right: auto;
   margin-left: auto;
 }
-
 @media (min-width: 375px) {
   .container {
     width: 375px;

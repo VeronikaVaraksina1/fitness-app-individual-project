@@ -1,13 +1,17 @@
-<div class="header-container">
+<div class="header-container container">
   <div class="header-nav-container">
-    <a href="./index.html">energy.flow</a>
+    <a class="header-logo" href="./index.html">energy.flow</a>
 
-    <load ="./navigation.html" />
-    <load ="./social-media-list.html" />
+    <div class="main-navigation-container">
+      <load ="./navigation.html" />
+    </div>
+    <div class="main-social-media-container">
+      <load ="./social-media-list.html" />
+    </div>
 
     <button class="btn-open-mobile-menu">
-      <svg class="mobile-menu-icon">
-        <use></use>
+      <svg class="mobile-menu-icon" width="32" height="16">
+        <use href="./img/sprite.svg#burger-icon"></use>
       </svg>
     </button>
   </div>
@@ -16,17 +20,21 @@
 
   <div class="mobile-menu-wrapper">
     <div class="mobile-menu-container">
-      <div>
+      <div class="mobile-menu-container-top">
         <a href="./index.html">energy.flow</a>
         <button class="btn-close-mobile-menu">
-          <svg class="close-mobile-menu-icon">
-            <use></use>
+          <svg class="close-mobile-menu-icon" width="20" height="20">
+            <use href="./img/sprite.svg#close-icon"></use>
           </svg>
         </button>
       </div>
 
-      <load ="./navigation.html" />
-      <load ="./social-media-list.html" />
+      <div class="mobile-nav-container">
+        <load ="./navigation.html" />
+      </div>
+      <div class="mobile-social-media-container">
+        <load ="./social-media-list.html" />
+      </div>
     </div>
   </div>
 </div>
