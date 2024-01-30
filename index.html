@@ -5,74 +5,23 @@
     <link rel="icon" type="image/svg+xml" href="/fitness-app-individual-project/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,700;1,9..40,700&display=swap"
+      rel="stylesheet"
+    />
     
     <script type="module" crossorigin src="/fitness-app-individual-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/fitness-app-individual-project/assets/index-c8629a0c.css">
+    <link rel="stylesheet" href="/fitness-app-individual-project/assets/index-cc037d4e.css">
   </head>
   <body>
     <header>
-      <div class="header-container">
+      <div class="header-container container">
   <div class="header-nav-container">
-    <a href="./index.html">energy.flow</a>
+    <a class="header-logo" href="./index.html">energy.flow</a>
 
-    <nav class="header-nav">
-  <ul class="nav-list">
-    <li class="nav-list-item">
-      <a href="./index.html" class="nav-link">Home</a>
-    </li>
-    <li class="nav-list-item">
-      <a href="./favorites.html" class="nav-link">Favorites</a>
-    </li>
-  </ul>
-</nav>
-
-    <ul class="header-social-media-list">
-  <li class="header social-media-item">
-    <a href=""
-      ><svg class="social-media-link-icon">
-        <use></use>
-      </svg>
-    </a>
-  </li>
-
-  <li class="header social-media-item">
-    <a href=""
-      ><svg class="social-media-link-icon">
-        <use></use>
-      </svg>
-    </a>
-  </li>
-
-  <li class="header social-media-item">
-    <a href=""
-      ><svg class="social-media-link-icon">
-        <use></use>
-      </svg>
-    </a>
-  </li>
-</ul>
-
-
-    <button class="btn-open-mobile-menu">
-      <svg class="mobile-menu-icon">
-        <use></use>
-      </svg>
-    </button>
-  </div>
-
-  <!-- Mobile menu -->
-
-  <div class="mobile-menu-wrapper">
-    <div class="mobile-menu-container">
-      <div>
-        <a href="./index.html">energy.flow</a>
-        <button class="btn-close-mobile-menu">
-          <svg class="close-mobile-menu-icon">
-            <use></use>
-          </svg>
-        </button>
-      </div>
-
+    <div class="main-navigation-container">
       <nav class="header-nav">
   <ul class="nav-list">
     <li class="nav-list-item">
@@ -84,32 +33,97 @@
   </ul>
 </nav>
 
+    </div>
+    <div class="main-social-media-container">
       <ul class="header-social-media-list">
-  <li class="header social-media-item">
-    <a href=""
-      ><svg class="social-media-link-icon">
-        <use></use>
+  <li class="header-social-media-item">
+    <a class="social-media-link" href="">
+      <svg class="social-media-link-icon" width="25" height="25">
+        <use href="/fitness-app-individual-project/assets/sprite-1a21db48.svg#facebook-icon"></use>
       </svg>
     </a>
   </li>
 
-  <li class="header social-media-item">
-    <a href=""
-      ><svg class="social-media-link-icon">
-        <use></use>
+  <li class="header-social-media-item">
+    <a class="social-media-link" href="">
+      <svg class="social-media-link-icon" width="25" height="25">
+        <use href="/fitness-app-individual-project/assets/sprite-1a21db48.svg#instagram-icon"></use>
       </svg>
     </a>
   </li>
 
-  <li class="header social-media-item">
-    <a href=""
-      ><svg class="social-media-link-icon">
-        <use></use>
+  <li class="header-social-media-item">
+    <a class="social-media-link" href="">
+      <svg class="social-media-link-icon" width="25" height="25">
+        <use href="/fitness-app-individual-project/assets/sprite-1a21db48.svg#youtube-icon"></use>
       </svg>
     </a>
   </li>
 </ul>
 
+    </div>
+
+    <button class="btn-open-mobile-menu">
+      <svg class="mobile-menu-icon" width="32" height="16">
+        <use href="/fitness-app-individual-project/assets/sprite-1a21db48.svg#burger-icon"></use>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile menu -->
+
+  <div class="mobile-menu-wrapper">
+    <div class="mobile-menu-container">
+      <div class="mobile-menu-container-top">
+        <a href="./index.html">energy.flow</a>
+        <button class="btn-close-mobile-menu">
+          <svg class="close-mobile-menu-icon" width="20" height="20">
+            <use href="/fitness-app-individual-project/assets/sprite-1a21db48.svg#close-icon"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-nav-container">
+        <nav class="header-nav">
+  <ul class="nav-list">
+    <li class="nav-list-item">
+      <a href="./index.html" class="nav-link">Home</a>
+    </li>
+    <li class="nav-list-item">
+      <a href="./favorites.html" class="nav-link">Favorites</a>
+    </li>
+  </ul>
+</nav>
+
+      </div>
+      <div class="mobile-social-media-container">
+        <ul class="header-social-media-list">
+  <li class="header-social-media-item">
+    <a class="social-media-link" href="">
+      <svg class="social-media-link-icon" width="25" height="25">
+        <use href="/fitness-app-individual-project/assets/sprite-1a21db48.svg#facebook-icon"></use>
+      </svg>
+    </a>
+  </li>
+
+  <li class="header-social-media-item">
+    <a class="social-media-link" href="">
+      <svg class="social-media-link-icon" width="25" height="25">
+        <use href="/fitness-app-individual-project/assets/sprite-1a21db48.svg#instagram-icon"></use>
+      </svg>
+    </a>
+  </li>
+
+  <li class="header-social-media-item">
+    <a class="social-media-link" href="">
+      <svg class="social-media-link-icon" width="25" height="25">
+        <use href="/fitness-app-individual-project/assets/sprite-1a21db48.svg#youtube-icon"></use>
+      </svg>
+    </a>
+  </li>
+</ul>
+
+      </div>
     </div>
   </div>
 </div>
