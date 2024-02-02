@@ -1,11 +1,12 @@
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./social-media-list.css');
+@import url('./navigation.css');
 
 :root {
   font-family: 'DM Sans', sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   font-weight: 400;
 
   background-color: #f6f6f6;
@@ -27,10 +28,6 @@
   --cloud-gray-color: #e8e8e8;
 
   --transition-animation: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .container {

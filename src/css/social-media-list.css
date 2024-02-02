@@ -1,5 +1,6 @@
 .header-social-media-list {
   display: flex;
+  justify-content: center;
   gap: 12px;
 }
 
@@ -8,11 +9,18 @@
   justify-content: center;
   align-items: center;
 
-  width: 40px;
-  height: 40px;
+  width: 41px;
+  height: 41px;
   border-radius: 10px;
-  border: 1px solid rgba(246, 246, 246, 0.2);
+  border: 1px solid rgba(126, 132, 127, 0.2);
 
-  fill: red;
-  stroke: red;
+  fill: var(--light-gray-color);
+  transition: border 250ms var(--transition-animation),
+    fill 250ms var(--transition-animation);
+}
+
+.social-media-link:hover,
+.social-media-link:focus {
+  border: 1px solid rgba(95, 101, 96, 0.2);
+  fill: var(--gray-color);
 }

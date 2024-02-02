@@ -1,0 +1,13 @@
+.nav-link {
+  display: block;
+  color: var(--soft-white-color);
+}
+
+.active-link {
+  padding: 6px 26px;
+  border-radius: 30px;
+
+  color: var(--black-color);
+  background-color: var(--soft-white-color);
+  transition: all 250ms var(--transition-animation);
+}
