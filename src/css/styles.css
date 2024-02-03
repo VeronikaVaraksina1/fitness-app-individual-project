@@ -2,6 +2,7 @@
 @import url('./header.css');
 @import url('./social-media-list.css');
 @import url('./navigation.css');
+@import url('./hero.css');
 
 :root {
   font-family: 'DM Sans', sans-serif;

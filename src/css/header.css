@@ -1,13 +1,23 @@
-.header-container {
-  padding: 0 20px;
+.header-wrapper {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+
+  padding-top: 20px;
 }
 
-.header-nav-container {
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  padding: 20px 20px;
+  width: 320px;
+}
+
+div.header-container {
+  padding: 0 40px;
 }
 
 .header-logo {
@@ -30,7 +40,7 @@
   align-items: center;
   width: 32px;
   height: 16px;
-  padding: 20px 0;
+  padding: 0;
   border: transparent;
   outline: transparent;
 
@@ -106,7 +116,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header-container {
+  div.header-container {
     padding: 0 30px;
   }
 

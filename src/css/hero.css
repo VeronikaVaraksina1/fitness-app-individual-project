@@ -1,0 +1,36 @@
+.hero-bg {
+  position: relative;
+
+  width: 275px;
+  height: 387px;
+  border-radius: 30px;
+  margin: 0 auto;
+
+  background-image: url(../img/mobile/hero-mobile.jpg);
+  background-size: cover;
+}
+
+.hero-tags-list {
+  display: flex;
+  flex-direction: column;
+  /* position: absolute;
+  z-index: 4;
+  left: 0;
+  bottom: 0; */
+
+  max-width: 141px;
+}
+
+@media screen and (min-width: 375px) {
+  .hero-bg {
+    width: 335px;
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .hero-bg {
+    background-image: url(../img/mobile/hero-mobile@2x.jpg);
+  }
+}
